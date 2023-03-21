@@ -1,0 +1,269 @@
+@font-face {
+	font-family: 'Argentum';
+	font-display: swap;
+	src: local('ArgentumSans Bold'), local('ArgentumSans-Bold'), url('../../fonts/ArgentumSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Gardenia';
+	font-display: swap;
+	src: local('Gardenia BlackItalic'), local('Gardenia-BlackItalic'), url('../../fonts/Gardenia-BlackItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Gardenia-UltraBlackItalic';
+	font-display: swap;
+	src: local('Gardenia UltraBlackItalic'), local('Gardenia-UltraBlackItalic'), url('../../fonts/Gardenia-UltraBlackItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Geomanist Bold';
+	font-display: swap;
+	src: local('Geomanist Bold'), local('Geomanist-Bold'), url('../../fonts/Geomanist-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Geomanist Book';
+	font-display: swap;
+	src: local('Geomanist Book'), local('Geomanist-Book'), url('../../fonts/Geomanist-Book.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Geomanist Regular';
+	font-display: swap;
+	src: local('Geomanist'), local('Geomanist'), url('../../fonts/Geomanist.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Geomanist Black';
+	font-display: swap;
+	src: local('Geomanist Black'), local('Geomanist-BLack'), url('../../fonts/Geomanist-Black.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Geomanist Light';
+	font-display: swap;
+	src: local('Geomanist Light'), local('Geomanist-Light'), url('../../fonts/Geomanist-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'BadassMoon';
+	font-display: swap;
+	src: local('BadassMoon'), url('../../fonts/BadassMoon.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'ArgentumSansLight';
+	font-display: swap;
+	src: local('ArgentumSans Light'), local('ArgentumSans-Light'), url('../../fonts/ArgentumSans-Light.woff2') format('woff2');
+}
+
+// @font-face {
+//     font-family: "ArgentumSansBold";
+//     font-display: swap;
+//     src: local("ArgentumSans Bold"), local("ArgentumSans-Bold"),
+//         url("./../fonts/ArgentumSans-Bold.woff2") format('woff2');
+// }
+
+@font-face {
+	font-family: 'ArgentumSans-BoldItalic';
+	font-display: swap;
+	src: local('ArgentumSans BoldItalic'), local('ArgentumSans-BoldItalic'), url('../../fonts/ArgentumSans-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'ArgentumSans-BlackItalic';
+	font-display: swap;
+	src: local('ArgentumSans BlackItalic'), local('ArgentumSans-BlackItalic'), url('../../fonts/ArgentumSans-BlackItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'ArgentumSansSemiBold';
+	font-display: swap;
+	src: local('Argentum Sans SemiBold'), local('ArgentumSans-SemiBold'), url('../../fonts/ArgentumSans-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'ArgentumSans-SemiBoldItalic';
+	font-display: swap;
+	src: local('ArgentumSans SemiBoldItalic'), local('ArgentumSans-SemiBoldItalic'), url('../../fonts/ArgentumSans-SemiBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'ArgentumSansRegular';
+	font-display: swap;
+	font-weight: normal;
+	src: local('Argentum Sans Regular'), local('ArgentumSans-Regular'), url('../../fonts/ArgentumSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'ArgentumSans-Italic';
+	font-display: swap;
+	font-weight: normal;
+	src: local('Argentum Sans Italic'), local('ArgentumSans-Italic'), url('../../fonts/ArgentumSans-Italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'ArgentumSans-MediumItalic';
+	font-display: swap;
+	font-weight: normal;
+	src: local('Argentum Sans MediumItalic'), local('ArgentumSans-MediumItalic'), url('../../fonts/ArgentumSans-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'argentum-sanslight-italic';
+	font-display: swap;
+	font-weight: normal;
+	src: local('argentum sanslight italic'), local('argentum-sanslight-italic'), url('../../fonts/argentum-sanslight-italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'GardeniaBlackItalic';
+	font-display: swap;
+	font-weight: normal;
+	src: local('Gardenia BlackItalic'), local('Gardenia-BlackItalic'), url('../../fonts/Gardenia-BlackItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'GardeniaBoldItalic';
+	font-display: swap;
+	font-weight: normal;
+	src: local('Gardenia BoldItalic'), local('Gardenia-BoldItalic'), url('../../fonts/Gardenia-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'GardeniaBold';
+	font-display: swap;
+	font-weight: normal;
+	src: local('Gardenia Bold'), local('Gardenia-Bold'), url('../../fonts/Gardenia-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	font-display: swap;
+	font-weight: normal;
+	src: local('MyriadPro Regular'), local('MyriadPro-Regular'), url('../../fonts/MyriadPro-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Axiforma-Book';
+	font-display: swap;
+	font-weight: normal;
+	src: local('Kastelov AxiformaBook'), local('Kastelov-AxiformaBook'), url('../../fonts/Kastelov-AxiformaBook.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Gotham';
+	font-display: auto;
+	src: local('Gotham'), url('../../fonts/GothamMedium.ttf');
+}
+
+@font-face {
+	font-family: 'GothamLight';
+	font-display: auto;
+	src: local('GothamLight'), url('../../fonts/GothamLight.ttf');
+}
+
+@font-face {
+	font-family: 'Gotham-Black';
+	font-display: auto;
+	src: local('Gotham-Black'), url('../../fonts/Gotham-Black.otf');
+}
+
+@font-face {
+	font-family: 'PacificoRegular';
+	font-display: auto;
+	src: local('Pacifico-Regular'), url('../../fonts/Pacifico-Regular.woff2');
+}
+
+@font-face {
+	font-family: 'Wremena-Bold';
+	font-display: auto;
+	src: local('Wremena-Bold'), url('../../fonts/Wremena-Bold.woff');
+}
+
+@font-face {
+	font-family: 'BeVietnam-ExtraBold';
+	font-display: auto;
+	src: local('BeVietnam-ExtraBold'), url('../../fonts/BeVietnam-ExtraBold.woff');
+}
+
+@font-face {
+	font-family: 'BeVietnam-Light';
+	font-display: auto;
+	src: local('BeVietnam-Light'), url('../../fonts/BeVietnam-Light.woff');
+}
+
+@font-face {
+	font-family: 'BeVietnam-Medium';
+	font-display: auto;
+	src: local('BeVietnam-Medium'), url('../../fonts/BeVietnam-Medium.woff');
+}
+
+@font-face {
+	font-family: 'BeVietnam-Regular';
+	font-display: auto;
+	src: local('BeVietnam-Regular'), url('../../fonts/BeVietnam-Regular.woff');
+}
+
+@font-face {
+	font-family: 'BeVietnam-SemiBold';
+	font-display: auto;
+	src: url('../../fonts/BeVietnam-SemiBold.woff');
+}
+
+@font-face {
+	font-family: 'BeVietnam-Thin';
+	font-display: auto;
+	src: local('BeVietnam-Thin'), url('../../fonts/BeVietnam-Thin.woff');
+}
+
+.geomanist-light {
+	font-family: 'Geomanist Light';
+}
+
+.geomanist-regular {
+	font-family: 'Geomanist Regular';
+}
+
+.geomanist-book {
+	font-family: 'Geomanist Book';
+}
+
+.geomanist-bold {
+	font-family: 'Geomanist Bold';
+}
+
+.badassmoon {
+	font-family: 'BadassMoon';
+}
+
+.gardenia {
+	font-family: 'Gardenia';
+}
+
+.gardenia-bold-italic {
+	font-family: 'GardeniaBoldItalic';
+}
+
+.argentum {
+	font-family: 'Argentum';
+}
+
+.argentum-regular {
+	font-family: 'ArgentumSansRegular';
+}
+
+.argentum-light {
+	font-family: 'ArgentumSansLight';
+}
+
+.argentumsans-regular {
+	font-family: 'ArgentumSansRegular';
+}
+
+.argentumsans-semibold {
+	font-family: 'ArgentumSansSemiBold';
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');

@@ -1,0 +1,8 @@
+export { Banner } from "./Banner"
+export { Fachada } from "./Fachada"
+export { Atributos } from "./Atributos"
+export { AreasComunes } from "./AreasComunes"
+export { Departamentos } from "./Departamentos"
+export { DobleAcceso } from "./DobleAcceso"
+export { Fases } from "./Fases"
+export { Ubicanos } from "./Ubicanos"

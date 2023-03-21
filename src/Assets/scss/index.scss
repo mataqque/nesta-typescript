@@ -1,0 +1,14 @@
+@import './font.scss';
+@import './common/index.scss';
+@import './pages/index.scss';
+@import './bannerSVG.scss';
+@import './sticky.scss';
+.owl-carousel {
+	display: flex;
+}
+.owl-stage-outer {
+	display: flex;
+}
+.owl-stage {
+	display: flex;
+}
