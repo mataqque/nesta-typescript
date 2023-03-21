@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SimpleReactValidator from 'simple-react-validator';
 import titlePaloma1 from '../Assets/images/palomas-left.png';
-import ImgTitle from '../assets/images/postventa/title.png';
+import ImgTitle from '../Assets/images/postventa/title.png';
 import { Input, TextArea, Selectbox } from '../components/Others';
 import axios from 'axios';
 import { postSale } from '../components/emails/PostSale';
