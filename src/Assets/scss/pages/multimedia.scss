@@ -62,7 +62,7 @@
 		i {
 			position: absolute;
 			height: 100%;
-			color: $nesta_color;
+			color: var(--nesta_color);
 			top: 0;
 			display: flex;
 			align-items: center;
@@ -179,7 +179,7 @@
 				padding-top: 61%;
 			}
 			.episode {
-				color: $nesta_color;
+				color: var(--nesta_color);
 				text-transform: uppercase;
 				font-weight: 700;
 				font-size: 14px;

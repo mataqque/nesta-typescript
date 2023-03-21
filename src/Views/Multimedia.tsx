@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //@ts-ignore
 import OwlCarousel from 'react-owl-carousel2';
-import ImgTitle from 'Assets/images/multimedia/entorno.png';
+import ImgTitle from '../Assets/images/multimedia/entorno.png';
 import IMGVideo from '../Assets/images/multimedia/video-general.png';
 import titleElementTop from '../Assets/images/workingprogress/topElement.png';
 import titlePaloma3 from '../Assets/images/dobleacceso/paloma2.png';
@@ -14,13 +14,13 @@ import IMG5 from '../Assets/images/multimedia/entorno-real-plaza-vf.jpg';
 import IMG6 from '../Assets/images/multimedia/entorno-UPC-vf.jpg';
 import IMG7 from '../Assets/images/multimedia/entorno-up-vf.jpg';
 
-import ImgTitle2 from 'Assets/images/multimedia/vive-superior.png';
-import IMGViveSuperior1 from 'Assets/images/multimedia/cap1.png';
-import IMGViveSuperior2 from 'Assets/images/multimedia/cap2.png';
-import IMGViveSuperior3 from 'Assets/images/multimedia/cap3.png';
+import ImgTitle2 from '../Assets/images/multimedia/vive-superior.png';
+import IMGViveSuperior1 from '../Assets/images/multimedia/cap1.png';
+import IMGViveSuperior2 from '../Assets/images/multimedia/cap2.png';
+import IMGViveSuperior3 from '../Assets/images/multimedia/cap3.png';
 import titlePaloma1 from '../Assets/images/dobleacceso/paloma1.png';
 import titlePaloma2 from '../Assets/images/dobleacceso/paloma2.png';
-import SVGPlay from 'Assets/images/multimedia/play.svg';
+import SVGPlay from '../Assets/images/multimedia/play.svg?url';
 
 import ImgTitle3 from '../Assets/images/multimedia/recorrido-virtual.png';
 import IMGHeaderVirtualExperience from '../Assets/images/multimedia/headerVirtualExperience.png';

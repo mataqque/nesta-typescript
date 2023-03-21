@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
-import imgLarMap from 'Assets/images/nosotros/mapa-desktop2.png';
-import imgTitle from 'Assets/images/nosotros/usTitle.png';
-import imgPalomas from 'Assets/images/nosotros/palomas.png';
+import imgLarMap from '../Assets/images/nosotros/mapa-desktop2.png';
+import imgTitle from '../Assets/images/nosotros/usTitle.png';
+import imgPalomas from '../Assets/images/nosotros/palomas.png';
 import '../Assets/scss/pages/us.scss';
 import { WebLayout } from '../layout/WebLayout';
 export default class Nosotros extends Component {
@@ -75,7 +75,7 @@ export default class Nosotros extends Component {
 						</MediaQuery>
 						<MediaQuery query='(max-width: 768px)'>
 							<div className='content-lar-map'>
-								<div className='lar-map' style={{ backgroundImage: `url(${require('Assets/images/nosotros/mapa-desktop-movil.png')})` }}>
+								<div className='lar-map' style={{ backgroundImage: `url(${require('../Assets/images/nosotros/mapa-desktop-movil.png')})` }}>
 									<div className='hotspot'>
 										<div className='pulse'></div>
 										<a href='#' className='dot'>

@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
 // import GoogleMaps from "../../components/Others/GoogleMaps"
-import Background from 'Assets/images/ubicanos/background.png';
-import IMGTitle from 'Assets/images/ubicanos/title.svg';
-import Marker from 'Assets/images/ubicanos/marcador.png';
-import Mapa from 'Assets/images/ubicanos/mapa.png';
-import Encuentranos from 'Assets/images/ubicanos/encuentranosen.png';
-import Waze from 'Assets/images/ubicanos/waze.png';
-import Maps from 'Assets/images/ubicanos/maps.png';
-import titlePaloma1 from 'Assets/images/ubicanos/paloma1.png';
+import Background from '../../Assets/images/ubicanos/background.png';
+import IMGTitle from '../../Assets/images/ubicanos/title.svg?url';
+import Marker from '../../Assets/images/ubicanos/marcador.png';
+import Mapa from '../../Assets/images/ubicanos/mapa.png';
+import Encuentranos from '../../Assets/images/ubicanos/encuentranosen.png';
+import Waze from '../../Assets/images/ubicanos/waze.png';
+import Maps from '../../Assets/images/ubicanos/maps.png';
+import market from '../../Assets/images/ubicanos/market.svg?url';
+import estadio from '../../Assets/images/ubicanos/estadio.svg?url';
+import alameda from '../../Assets/images/ubicanos/alameda.svg?url';
+import plazavea from '../../Assets/images/ubicanos/market.svg?url';
+import park from '../../Assets/images/ubicanos/park.svg?url';
+import healt from '../../Assets/images/ubicanos/health.svg?url';
+import metro from '../../Assets/images/ubicanos/metro.svg?url';
+import bottonpart from '../../Assets/svg/bottonpart.svg?url';
+import titlePaloma1 from '../../Assets/images/ubicanos/paloma1.png';
 var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
 mapboxgl.accessToken = 'pk.eyJ1IjoiZWR1YXJkb2p2cCIsImEiOiJja2xsMDN1ZXowN2cxMnVsY3FpZzllcTB3In0.VqhrTGX7rFTgSeROj01uzQ';
 let centerPos = [-77.03973772883633, -12.06917891635197];
@@ -30,7 +38,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Promart',
-						icon: require('../../Assets/images/ubicanos/market.svg').default,
+						icon: market,
 					},
 				},
 				{
@@ -41,7 +49,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Estadio',
-						icon: require('../../Assets/images/ubicanos/estadio.svg').default,
+						icon: estadio,
 					},
 				},
 				{
@@ -52,7 +60,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Alameda',
-						icon: require('../../Assets/images/ubicanos/alameda.svg').default,
+						icon: alameda,
 					},
 				},
 
@@ -64,7 +72,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'La rambla',
-						icon: require('../../Assets/images/ubicanos/market.svg').default,
+						icon: market,
 					},
 				},
 				{
@@ -75,7 +83,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Plaza Vea',
-						icon: require('../../Assets/images/ubicanos/market.svg').default,
+						icon: plazavea,
 					},
 				},
 				{
@@ -86,7 +94,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Parque de la reserva',
-						icon: require('../../Assets/images/ubicanos/park.svg').default,
+						icon: park,
 					},
 				},
 				{
@@ -97,7 +105,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Campo de marte',
-						icon: require('../../Assets/images/ubicanos/park.svg').default,
+						icon: park,
 					},
 				},
 				{
@@ -108,7 +116,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Parque de la reserva',
-						icon: require('../../Assets/images/ubicanos/park.svg').default,
+						icon: park,
 					},
 				},
 				{
@@ -119,7 +127,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Parque de la exposición',
-						icon: require('../../Assets/images/ubicanos/park.svg').default,
+						icon: park,
 					},
 				},
 				{
@@ -130,7 +138,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Hospital Rebagliati',
-						icon: require('../../Assets/images/ubicanos/health.svg').default,
+						icon: healt,
 					},
 				},
 				{
@@ -141,7 +149,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Estación Canadá',
-						icon: require('../../Assets/images/ubicanos/metro.svg').default,
+						icon: metro,
 					},
 				},
 				{
@@ -152,7 +160,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Universidad del Pacífico',
-						icon: require('../../Assets/images/ubicanos/metro.svg').default,
+						icon: metro,
 					},
 				},
 				{
@@ -163,7 +171,7 @@ export class Ubicanos extends Component {
 					},
 					properties: {
 						title: 'Hospital del niño',
-						icon: require('../../Assets/images/ubicanos/health.svg').default,
+						icon: healt,
 					},
 				},
 				{
@@ -225,7 +233,7 @@ export class Ubicanos extends Component {
 						<div className='contentMaps' style={{ backgroundImage: `url(${Mapa})` }}>
 							{/*  @ts-ignore */}
 							<div className={'map ' + this.state.googlemaps}>
-								<div className='topPart' style={{ backgroundImage: `url(${require('Assets/svg/bottonpart.svg').default})` }} />
+								<div className='topPart' style={{ backgroundImage: `url(${bottonpart})` }} />
 								<div id='map'></div>
 								<div className='content-levels'>
 									<div className='btn-zoom btn-zoom-more'>+</div>

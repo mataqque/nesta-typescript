@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 //@ts-ignore
 import OwlCarousel from 'react-owl-carousel2';
-import titlePaloma from 'Assets/images/areas-sociales/paloma.png';
-import TitleAreasSociales from 'Assets/images/areas-sociales/areas-sociales.svg';
-import bgName from 'Assets/images/areas-sociales/bgName.png';
+import bgName from '../../Assets/images/areas-sociales/bgName.png';
 
 //@ts-ignore
 const $ = window.jQuery;

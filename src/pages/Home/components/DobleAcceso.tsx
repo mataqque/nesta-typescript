@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import IMGTitle from '../../../Assets/images/areas-sociales/areas-sociales.svg';
+import IMGTitle from '../../../Assets/images/areas-sociales/areas-sociales.svg?url';
 import titlePaloma1 from '../../../Assets/images/dobleacceso/paloma1.png';
 import titlePaloma2 from '../../../Assets/images/dobleacceso/paloma2.png';
 import IMG1 from '../../../Assets/images/dobleacceso/compress-img1.webp';

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 //@ts-ignore
 import OwlCarousel from 'react-owl-carousel2';
 import MediaQuery from 'react-responsive';
-const sliderWeb = require('Assets/images/banner/compress-slider-desktop.webp');
-const sliderMovil = require('Assets/images/banner/compress-slider-movil.webp');
+const sliderWeb = require('../../Assets/images/banner/compress-slider-desktop.webp');
+const sliderMovil = require('../../Assets/images/banner/compress-slider-movil.webp');
 
 export class SectionHeader extends Component {
 	render() {

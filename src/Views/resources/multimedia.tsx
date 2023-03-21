@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import IMGTitle from 'Assets/images/areas-sociales/areas-sociales.svg';
-import titlePaloma1 from 'Assets/images/dobleacceso/paloma1.png';
-import titlePaloma2 from 'Assets/images/dobleacceso/paloma2.png';
-import IMG1 from 'Assets/images/dobleacceso/compress-img1.webp';
-import IMG2 from 'Assets/images/dobleacceso/compress-img2.webp';
-import IMGVirtualExperience from 'Assets/images/multimedia/virtualExperience.png';
-import IMGVirtualExperience3d from 'Assets/images/multimedia/virtualExperience3d.png';
+import IMGTitle from '../../Assets/images/areas-sociales/areas-sociales.svg?url';
+import titlePaloma1 from '../../Assets/images/dobleacceso/paloma1.png';
+import titlePaloma2 from '../../Assets/images/dobleacceso/paloma2.png';
+import IMG1 from '../../Assets/images/dobleacceso/compress-img1.webp';
+import IMG2 from '../../Assets/images/dobleacceso/compress-img2.webp';
+import IMGVirtualExperience from '../../Assets/images/multimedia/virtualExperience.png';
+import IMGVirtualExperience3d from '../../Assets/images/multimedia/virtualExperience3d.png';
 import { Icon } from '../../components/UI/icon/icon';
 import { Link } from 'react-router-dom';
-import Paloma1 from 'Assets/images/atributos/paloma-atributos.png';
+import Paloma1 from '../../Assets/images/atributos/paloma-atributos.png';
 
 const logo = require('../../Assets/images/inicio/tour-360.json');
 export class SectionMultimedia extends Component {

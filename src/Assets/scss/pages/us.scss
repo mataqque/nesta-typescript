@@ -99,7 +99,7 @@
 						display: none;
 						.pulse,
 						a.dot {
-							background-color: $nesta_color;
+							background-color: var(--nesta_color);
 						}
 
 						&:nth-child(1) {

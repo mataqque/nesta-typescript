@@ -1387,7 +1387,7 @@
 
 					.pulse,
 					a.dot {
-						background-color: $terra_color;
+						background-color: var(--terra_color);
 					}
 
 					.preview {
@@ -1418,7 +1418,7 @@
 
 					.pulse,
 					a.dot {
-						background-color: $piros_color;
+						background-color: var(--piros_color);
 					}
 
 					.preview {
@@ -1434,7 +1434,7 @@
 					z-index: 2;
 					.pulse,
 					a.dot {
-						background-color: $aqua_color;
+						background-color: var(--aqua_color);
 					}
 
 					.preview {
@@ -1450,7 +1450,7 @@
 
 					.pulse,
 					a.dot {
-						background-color: $ventos_color;
+						background-color: var(--ventos_color);
 					}
 
 					.preview {
@@ -1466,7 +1466,7 @@
 
 					.pulse,
 					a.dot {
-						background-color: $platinum_color;
+						background-color: var(--platinum_color);
 					}
 
 					.preview {

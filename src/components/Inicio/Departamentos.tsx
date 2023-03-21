@@ -66,8 +66,8 @@ export class Departamentos extends Component<any, any> {
 					<div className='contain'>
 						<div className='contentImgTitle'>
 							<div className='imgtitle text-center d-flex justify-content-center align-items-center text-white'>
-								<div className='paloma-bird' style={{ backgroundImage: `url(${require('Assets/images/departamentos/paloma1.png')})` }} />
-								<div className='paloma-bird' style={{ backgroundImage: `url(${require('Assets/images/departamentos/paloma2.png')})` }} />
+								<div className='paloma-bird' style={{ backgroundImage: `url(${require('../../Assets/images/departamentos/paloma1.png')})` }} />
+								<div className='paloma-bird' style={{ backgroundImage: `url(${require('../../Assets/images/departamentos/paloma2.png')})` }} />
 								<span translate='no' className='geomanist-light fsize-1-5vw'>
 									Conoce tu
 									<br />
@@ -76,7 +76,7 @@ export class Departamentos extends Component<any, any> {
 							</div>
 						</div>
 						<div className='contentSlider carousel-marco'>
-							<div className='name-carousel right' style={{ backgroundImage: `url(${require('Assets/images/departamentos/bgName.png')})` }}>
+							<div className='name-carousel right' style={{ backgroundImage: `url(${require('../../Assets/images/departamentos/bgName.png')})` }}>
 								<span translate='no'></span>
 							</div>
 							<OwlCarousel ref={'slider'} options={options} events={events} className='owl-carousel carousel-marco myCarouselDepartamentos carousel-normal owl-theme owl-loaded owl-drag'>

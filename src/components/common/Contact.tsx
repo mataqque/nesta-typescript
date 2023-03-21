@@ -8,8 +8,6 @@ export const Contact = (props: any) => {
 			<img className='img-flower text-fase-2 movil' src={require('../../Assets/images/fases/background-flower-movil.png')} loading='lazy' alt='fondo-flores'></img>
 			<div className='p-relative'>
 				<div className='linea-effect-start' />
-				{/* <div className="hierba" style={{backgroundImage:`url(${require("Assets/images/contacto/hierba.png")})`}} /> */}
-				{/* <div className="topPart" style={{WebkitMaskImage:`url(${require("Assets/svg/contactTop.svg").default})`}} /> */}
 				<div className='paloma' style={{ backgroundImage: `url(${require('../../Assets/images/contacto/paloma1.png')})` }} />
 				<div className='contain-contact'>
 					<div className='container-fluid'>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import whatsapp from '../Assets/images/whatsapp.svg?url';
 
 export default class GraciasPiros extends Component {
 	componentDidMount() {
@@ -25,7 +26,7 @@ export default class GraciasPiros extends Component {
 					<div className='w-100 d-flex justify-content-center align-items-center content-buttons'>
 						<a href='https://nestacosapi.grupolar.pe/'>Volver</a>
 						<a href='#' target='_blank' id='wsp' className='ml-5'>
-							<img src={require('../Assets/images/whatsapp.svg').default} style={{ width: 25 }} className='img img-fluid mr-2' /> Hablar con un asesor
+							<img src={whatsapp} style={{ width: 25 }} className='img img-fluid mr-2' /> Hablar con un asesor
 						</a>
 					</div>
 				</div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import BGatributos from '../../../Assets/images/inicio/background-atributos.png';
 import BGatributosMovil from '../../../Assets/images/inicio/background-atributos-movil.png';
-import IMGTitle from '../../../Assets/images/atributos/title.svg';
+import IMGTitle from '../../../Assets/images/atributos/title.svg?url';
 import Paloma1 from '../../../Assets/images/atributos/paloma-atributos.png';
 import PalomaVerdeRight from '../../../Assets/images/paloma-green-right.png';
 import LikeIcon from '../../../Assets/images/fases/iconos/like.png';

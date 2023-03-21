@@ -2,7 +2,7 @@ import React, { Component, useEffect, useRef, useState } from 'react';
 //@ts-ignore
 import OwlCarousel from 'react-owl-carousel2';
 import titlePaloma from '../../../Assets/images/areas-sociales/paloma.png';
-import TitleAreasSociales from '../../../Assets/images/areas-sociales/areas-sociales.svg';
+import TitleAreasSociales from '../../../Assets/images/areas-sociales/areas-sociales.svg?url';
 import bgName from '../../../Assets/images/areas-sociales/bgName.png';
 //@ts-ignore
 import { LightgalleryProvider, LightgalleryItem } from 'react-lightgallery';
