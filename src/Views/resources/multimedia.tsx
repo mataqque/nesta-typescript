@@ -6,7 +6,7 @@ import IMG1 from 'Assets/images/dobleacceso/compress-img1.webp';
 import IMG2 from 'Assets/images/dobleacceso/compress-img2.webp';
 import IMGVirtualExperience from 'Assets/images/multimedia/virtualExperience.png';
 import IMGVirtualExperience3d from 'Assets/images/multimedia/virtualExperience3d.png';
-import Icon from 'Components/UI/icon';
+import { Icon } from '../../components/UI/icon/icon';
 import { Link } from 'react-router-dom';
 import Paloma1 from 'Assets/images/atributos/paloma-atributos.png';
 
