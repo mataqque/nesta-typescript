@@ -34,7 +34,7 @@ export const Banner = (props: any) => {
 									<a href={fill.link}>
 										<picture>
 											<source media='(min-width: 500px)' srcSet={fill.sliderWeb} />
-											<img className='image' src={fill.sliderMovil}></img>
+											<img className='image' src={fill.sliderMovil} loading='lazy'></img>
 										</picture>
 									</a>
 								</div>

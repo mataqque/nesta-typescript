@@ -30,7 +30,7 @@ export class SectionMultimedia extends Component {
 	render() {
 		return (
 			<section className='section section-multimedia section-tramado bgImg'>
-				<img className='background-section' src={require('../../../Assets/images/inicio/background-atributos.png')} alt='background seccion multimedia' />
+				<img className='background-section' src={require('../../../Assets/images/inicio/background-atributos.png')} alt='background seccion multimedia' loading='lazy' />
 				<div className='topPart' />
 				<div className='p-relative'>
 					<div className='headerInvisible' id='headerInvisible' />

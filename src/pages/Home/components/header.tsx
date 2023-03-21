@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 // @ts-ignore
 import MediaQuery from 'react-responsive';
-const sliderWeb = require('../../../Assets/images/banner/compress-slider-desktop.webp');
-const sliderMovil = require('../../../Assets/images/banner/compress-slider-movil.webp');
+import compressSlider from '../../../Assets/images/banner/compress-slider-desktop.webp';
+import sliderMovil from '../../../Assets/images/banner/compress-slider-movil.webp';
 
 export const SectionHeader = () => {
 	return (
 		<section className='section section-header' id='inicio'>
 			<picture className='content-img'>
-				<source media='(min-width: 769px)' srcSet={sliderWeb}></source>
-				<img src={sliderMovil} alt='Imagen header'></img>
+				<source media='(min-width: 769px)' srcSet={compressSlider}></source>
+				<img src={sliderMovil} alt='Imagen header' loading='lazy'></img>
 			</picture>
 		</section>
 	);

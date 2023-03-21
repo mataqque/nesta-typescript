@@ -47,7 +47,7 @@ export class Tipologias extends Component {
                                 style={{backgroundImage:`url(${require('Assets/images/landing/piros/tipologias/tipo2.png')})`}} 
                             /> */}
 							<div className='imgTipologia' data-src={require('../../Assets/images/landing/piros/tipologias/tipo3.png')}>
-								<img className='img-fluid' src={require('../../Assets/images/landing/piros/tipologias/tipo3.png')} alt='' />
+								<img className='img-fluid' src={require('../../Assets/images/landing/piros/tipologias/tipo3.png')} alt='' loading='lazy' />
 							</div>
 							<div
 								className='imgTipologia'
@@ -59,6 +59,7 @@ export class Tipologias extends Component {
 									data-src={require('../../Assets/images/landing/piros/tipologias/Nesta-Piros-BX10.png')}
 									src={require('../../Assets/images/landing/piros/tipologias/Nesta-Piros-BX10.png')}
 									alt=''
+									loading='lazy'
 								/>
 							</div>
 						</OwlCarousel>

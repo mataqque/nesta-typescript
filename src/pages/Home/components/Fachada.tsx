@@ -8,7 +8,7 @@ export const Fachada = () => {
 			<div className='p-relative'>
 				<div className='headerInvisible' id='headerInvisible' />
 				<div className='contain-fachada'>
-					<img className='img-bottom' src={require('../../../Assets/images/inicio/background-botton.png')} alt='icon background'></img>
+					<img className='img-bottom' src={require('../../../Assets/images/inicio/background-botton.png')} alt='icon background' loading='lazy'></img>
 					<div className='row h-100 flex-reverse'>
 						<div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 h-100 d-flex justify-content-center align-items-center flex-column'>
 							<div className={['frases', 'frase1', 'text-center', 'c-second', 'd-flex', 'justify-content-center', 'align-items-center'].join(' ')}>

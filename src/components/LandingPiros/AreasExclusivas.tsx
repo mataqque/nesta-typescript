@@ -12,16 +12,16 @@ export class AreasExclusivas extends Component<any, any> {
 					<MediaQuery query='(min-width: 990px)'>
 						<div className='content-images-areas-exclusivas lightGalleryAreasExclusivas'>
 							<a href={require('../../Assets/images/landing/piros/areas-exclusivas/Nesta_Ladies_Club.jpg')}>
-								<img alt='Nesta Ladies Club' className='img img-fluid' src={require('../../Assets/images/landing/piros/areas-exclusivas/exclusiva1.png')} />
+								<img alt='Nesta Ladies Club' className='img img-fluid' src={require('../../Assets/images/landing/piros/areas-exclusivas/exclusiva1.png')} loading='lazy' />
 							</a>
 							<a href={require('../../Assets/images/landing/piros/areas-exclusivas/Sala-de-ninos.png')}>
-								<img alt='Sala de Niños' className='img img-fluid' src={require('../../Assets/images/landing/piros/areas-exclusivas/exclusiva2.png')} />
+								<img alt='Sala de Niños' className='img img-fluid' src={require('../../Assets/images/landing/piros/areas-exclusivas/exclusiva2.png')} loading='lazy' />
 							</a>
 							<a href={require('../../Assets/images/landing/piros/areas-exclusivas/Nesta_Pizza_Rooftop.jpg')}>
-								<img alt='Nesta Pizza Rooftop' className='img img-fluid' src={require('../../Assets/images/landing/piros/areas-exclusivas/exclusiva3.png')} />
+								<img alt='Nesta Pizza Rooftop' className='img img-fluid' src={require('../../Assets/images/landing/piros/areas-exclusivas/exclusiva3.png')} loading='lazy' />
 							</a>
 							<a href={require('../../Assets/images/landing/piros/areas-exclusivas/Nesta_Pet_Zone.jpg')}>
-								<img alt='Nesta Pet Zone' className='img img-fluid' src={require('../../Assets/images/landing/piros/areas-exclusivas/exclusiva4.png')} />
+								<img alt='Nesta Pet Zone' className='img img-fluid' src={require('../../Assets/images/landing/piros/areas-exclusivas/exclusiva4.png')} loading='lazy' />
 							</a>
 						</div>
 					</MediaQuery>
