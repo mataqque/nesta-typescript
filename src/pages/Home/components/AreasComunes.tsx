@@ -68,7 +68,7 @@ export const AreasComunes = ({ areas = [], depas = [] }: any) => {
 	};
 	return (
 		<section className='section section-areascomunes section-tramado fase-2' id='Areas-comunes'>
-			<img className='background-areas' src={require('../../../Assets/images/banner/compress-background-inicio.webp')} alt='fondo seccion de areas comunes e interiores' />
+			<img className='background-areas' src={require('../../../Assets/images/banner/compress-background-inicio.webp')} alt='fondo seccion de areas comunes e interiores' loading='lazy' />
 			<div className='p-relative'>
 				<div className='headerInvisible' id='headerInvisible' />
 				<div className='contain'>
@@ -100,7 +100,7 @@ export const AreasComunes = ({ areas = [], depas = [] }: any) => {
 											<LightgalleryItem key={index} group='any' src={fill.image}>
 												<picture className='content-img'>
 													<source media='(min-width: 769px)' srcSet={fill.image}></source>
-													<img className='image' src={fill.imageCompress} alt={'Nesta - Galeria'} title={fill.name} />
+													<img className='image' src={fill.imageCompress} alt={'Nesta - Galeria'} title={fill.name} loading='lazy' />
 												</picture>
 											</LightgalleryItem>
 										</div>
@@ -119,7 +119,7 @@ export const AreasComunes = ({ areas = [], depas = [] }: any) => {
 											<LightgalleryItem key={index} group='any' src={fill.image} subHtml={'#areas-comunes' + index}>
 												<picture className='content-img'>
 													<source media='(min-width: 769px)' srcSet={fill.image}></source>
-													<img className='image' src={fill.imageCompress} title={fill.name} />
+													<img className='image' src={fill.imageCompress} title={fill.name} loading='lazy' />
 												</picture>
 											</LightgalleryItem>
 										</div>

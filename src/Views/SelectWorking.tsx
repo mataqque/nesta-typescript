@@ -24,19 +24,19 @@ export default class SelectWorking extends Component {
 							<Link to='/avance-de-obra/terra' className='selectable --terra'>
 								<div className='title text-uppercase text-center bg_terra_color'>¡EN CONSTRUCCIÓN!</div>
 								<div className='content-logo bg_terra_color'>
-									<img src={require('../Assets/images/workingprogress/logo-terra.png')} className='img img-fluid' />
+									<img src={require('../Assets/images/workingprogress/logo-terra.png')} className='img img-fluid' loading='lazy' />
 								</div>
 							</Link>
 							<Link to={'/avance-de-obra/piros'} className='selectable --piros ml-4'>
 								<div className='title text-uppercase text-center bg_piros_color'>¡Entrega inmediata!</div>
 								<div className='content-logo bg_piros_color'>
-									<img src={require('../Assets/images/workingprogress/logo-piros.png')} className='img img-fluid' />
+									<img src={require('../Assets/images/workingprogress/logo-piros.png')} className='img img-fluid' loading='lazy' />
 								</div>
 							</Link>
 							<a className='selectable --ventos ml-4'>
 								<div className='title text-uppercase text-center bg_ventos_color'>100% vendido</div>
 								<div className='content-logo bg_ventos_color'>
-									<img src={require('../Assets/images/workingprogress/logo-ventos.png')} className='img img-fluid' />
+									<img src={require('../Assets/images/workingprogress/logo-ventos.png')} className='img img-fluid' loading='lazy' />
 								</div>
 							</a>
 							<a className='selectable --aqua ml-4 mr-4'>

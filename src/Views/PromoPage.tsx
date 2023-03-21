@@ -15,7 +15,7 @@ export default class PromoPage extends Component<any, any> {
 							<div className='row'>
 								<div className='col-md-12 col-lg-7 pl-0 pr-0' style={{ backgroundColor: '#353535' }}>
 									{/* <div className="bgImg myImgPromo w-100 img-promo-page" style={{backgroundImage:`url(${this.props.promo.img_square})`,backgroundPosition:'top'}} /> */}
-									<img src={this.props.promo.img_square} className='img img-fluid' />
+									<img src={this.props.promo.img_square} className='img img-fluid' loading='lazy' />
 									{/* <div className="content-nota-legal text-center bg-white " style={{fontSize:8,lineHeight:'1em'}}>
                                         *Tasa desde 6.99%, varía según evaluación del banco para departamentos dentro de Mivivienda Verde. **Bono del 3% aplica sobre el valor de financiamiento para viviendas de máximo S/419,600.00.
                                     </div> */}

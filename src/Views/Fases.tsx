@@ -93,25 +93,25 @@ export default class Fases extends Component<any, any> {
 										</MediaQuery>
 										<MediaQuery query='(max-width: 540px)'>
 											{/* @ts-ignore */}
-											<img src={this.props.data.imagenVistaMovil} className='img img-fluid' alt='Vista espectacular Jesús María' />
+											<img src={this.props.data.imagenVistaMovil} className='img img-fluid' alt='Vista espectacular Jesús María' loading='lazy' />
 										</MediaQuery>
 									</div>
 									<div className='col-md-5 d-flex justify-content-center align-items-center flex-column text-center geomanist-regular c-second'>
 										<div className='title-vista-espectacular'>
 											{/* @ts-ignore */}
 											<div dangerouslySetInnerHTML={{ __html: this.props.data.title }}></div>
-											<img src={require('../Assets/images/paloma-naranja-right.png')} className='img img-fluid img-paloma-naranja-right' />
+											<img src={require('../Assets/images/paloma-naranja-right.png')} className='img img-fluid img-paloma-naranja-right' loading='lazy' />
 										</div>
 										{/* @ts-ignore */}
 										<div className='subtitle-vista-espectacular' dangerouslySetInnerHTML={{ __html: this.props.data.subtitle }}></div>
 										<div className='subtitle-vista-espectacular text-fase-2'>
-											<img className='best-place' src={require('../Assets/images/fases/best-tu-place.png')}></img>
+											<img className='best-place' src={require('../Assets/images/fases/best-tu-place.png')} loading='lazy'></img>
 										</div>
 									</div>
 								</div>
 
 								<div className='row content-render geomanist-regular c-second'>
-									<img className='text-fase-2 background-fase-2' src={require('../Assets/images/fases/background-fase-2.png')}></img>
+									<img className='text-fase-2 background-fase-2' src={require('../Assets/images/fases/background-fase-2.png')} loading='lazy'></img>
 									<div className='col-md-6 atributos-col'>
 										<div className='mt-1 content-atributos d-flex flex-wrap justify-content-center'>
 											<div className='title-render text-center'>

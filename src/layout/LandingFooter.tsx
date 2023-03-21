@@ -28,7 +28,7 @@ export class LandingFooter extends Component<any, any> {
 			<footer className={'section  fp-auto-height footer landing-footer'}>
 				{/* @ts-ignore */}
 				<div className={`content_estado content_estado-footer ${this.props?.line ? 'none' : ''}`} style={{ backgroundImage: `url(${topTitle})` }}>
-					<img className='icon-car' src={require('../Assets/images/fases/iconos/car.png')} alt='icon-car'></img>
+					<img className='icon-car' src={require('../Assets/images/fases/iconos/car.png')} alt='icon-car' loading='lazy'></img>
 					<h2 className='title-content-stado-footer'>
 						Contamos con <span className='geomanist-bold'> estacionamientos exclusivos</span> para clientes en la Sala de Ventas.
 					</h2>
@@ -110,30 +110,30 @@ export class LandingFooter extends Component<any, any> {
 							<ul className='links-image'>
 								<li>
 									<a className='enlace-reclamo' href='https://libro.grupolar.pe/reclamaciones-nesta' title='' target='_blank'>
-										<img src='https://grupolar.pe/wp-content/uploads/2021/11/libro-reclamaciones.png' alt='icon libro de reclamaciones' />
+										<img src='https://grupolar.pe/wp-content/uploads/2021/11/libro-reclamaciones.png' alt='icon libro de reclamaciones' loading='lazy' />
 									</a>
 								</li>
 								<li>
 									<a href='https://www.bestplacetolive.com.pe/' target='_blank' className='d-flex justify-content-center align-items-center content-bptl'>
 										<span className='title-logo'>Certificada por</span>
 										<div className='logo bptl'>
-											<img className='' src={btl} alt='icon best place to live'></img>
+											<img className='' src={btl} alt='icon best place to live' loading='lazy'></img>
 										</div>
 									</a>
 								</li>
 								<li>
 									<a className='adi' href='http://adiperu.pe/' title='' target='_blank'>
-										<img src={AdiBrand} alt='icon adi brand' />
+										<img src={AdiBrand} alt='icon adi brand' loading='lazy' />
 									</a>
 								</li>
 								<li>
 									<a className='adi' href='https://dci.pe/' title='' target='_blank'>
-										<img src='https://f.hubspotusercontent40.net/hubfs/6972147/ESCRITORIO/dci.svg' alt='icon DCI' />
+										<img src='https://f.hubspotusercontent40.net/hubfs/6972147/ESCRITORIO/dci.svg' alt='icon DCI' loading='lazy' />
 									</a>
 								</li>
 								<li>
 									<a className='dci' href='https://www.asei.com.pe/' title='' target='_blank'>
-										<img src='https://f.hubspotusercontent40.net/hubfs/6972147/ESCRITORIO/asei.bc8f6d5c-1.svg' alt='icon asei' />
+										<img src='https://f.hubspotusercontent40.net/hubfs/6972147/ESCRITORIO/asei.bc8f6d5c-1.svg' alt='icon asei' loading='lazy' />
 									</a>
 								</li>
 							</ul>
