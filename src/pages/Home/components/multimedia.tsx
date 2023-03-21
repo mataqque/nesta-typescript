@@ -10,6 +10,7 @@ import maskCard from '../../../Assets/images/inicio/mask-recorrido.svg?url';
 // import Icon from 'Components/UI/icon';
 import { Link } from 'react-router-dom';
 import Paloma1 from '../../../Assets/images/atributos/paloma-atributos.png';
+import { Icon } from '../../../components/UI/icon/icon';
 
 const logo = require('../../../Assets/images/inicio/tour-360.json');
 export class SectionMultimedia extends Component {
@@ -46,13 +47,14 @@ export class SectionMultimedia extends Component {
 						<div className='contentImages'>
 							<div className='mask-multimedia mask-multimedia-1' id='asdf' style={{ WebkitMaskImage: `url(${maskCard})` }}>
 								<div className='content-card'>
-									{/* <Icon
+									<Icon
 										icon={logo}
-										ref={element => {
+										ref={(element: any) => {
+											//@ts-ignore
 											this.logo = element;
 										}}
 										event={this.hideLoading}
-									></Icon> */}
+									></Icon>
 									<span className='title-1'>EXPLORA NUESTRO</span>
 									<span className='title-2'>Recorrido Virtual</span>
 									<div className='btns'>

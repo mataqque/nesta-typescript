@@ -3,7 +3,7 @@ import MediaQuery from 'react-responsive';
 import MovilEstatico from '../Assets/images/stickyContact/movil_estatico_nesta.png';
 import WebEstatico from '../Assets/images/stickyContact/web_estatico_nesta.png';
 import { Controller, Scene } from 'react-scrollmagic';
-// import Icon from 'Components/UI/icon';
+import { Icon } from '../components/UI/icon/icon';
 
 const whatsapp = require('../Assets/images/whatsapp-animation.json');
 export class StickyContact extends Component {
@@ -18,9 +18,9 @@ export class StickyContact extends Component {
 				<Scene classToggle={['.content-wsp-button', 'hide']} triggerElement='.linea-effect-start' reverse={true} indicators={false}>
 					<div className='content-wsp-button'>
 						<MediaQuery query='(min-width: 768px)'>
-							{/* <a href={"/#contactanos"} className="stickyContact" >
-                                <Icon icon={whatsapp} ></Icon>
-                            </a> */}
+							<a href={'/#contactanos'} className='stickyContact'>
+								<Icon icon={whatsapp}></Icon>
+							</a>
 						</MediaQuery>
 						<MediaQuery query='(max-width: 768px)'>
 							<button className='stickyContact' onClick={e => this.fnMoveToScroll(e)} aria-label='Name'>
